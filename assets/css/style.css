@@ -1,0 +1,339 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+
+#top {
+    background-image: url(/repositorio_discord/assets/images/Header\ Background.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    margin: 0;
+}
+
+#top h2 {
+        font-family: 'Luckiest Guy', sans-serif;
+        color: white;
+        margin-top: -30px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        padding: 0 20px;
+}
+
+#top p {
+    font-family: 'Open Sans';
+    color: white;
+    text-align: left;
+    padding: 0 20px;
+    font-size: 16px;
+    width: 381px;
+    height: 132px;
+}
+
+button {
+    width: 381px;
+    height: 54px;
+    border-radius: 28px;
+    margin-bottom: 10px;
+    margin-left: 13px;
+    border: none;
+}
+
+#button-2 {
+    background-color: #23272A;
+    color: white;
+}
+
+#mid-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding: 27px 24px;
+}
+
+#mid-1 img {
+    width: 379px;
+    height: 252px;
+}
+
+#mid-1 h3 {
+    font-family: 'Open Sans';
+    color: #23272A;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32.68px;
+    padding-right: 20px;
+}
+
+#mid-1 p {
+    font-family: 'Open Sans';
+    color: #23272A;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.79px;
+}
+
+#mid-2 img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 18px;
+    width: 379px;
+    height: 252px;
+}
+
+#mid-2 h3 {
+    font-family: 'Open Sans';
+    color: #23272A;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32.68px;
+    padding-left: 18px;
+    text-align: left;
+}
+
+#mid-2 p {
+    font-family: 'Open Sans';
+    color: #23272A;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.79px;
+    padding-bottom: 20px;
+    text-align: left;
+    padding: 0 18px;
+    padding-bottom: 25px;
+    max-width: 378px;
+}
+
+#mid-3 img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 18px;
+    width: 379px;
+    height: 252px; 
+}
+
+#mid-3 h2 {
+    font-family: 'Luckiest Guy';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 32px;
+    color: #23272A;
+    padding: 0 18px;
+}
+
+#mid-3 p {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16.5px;
+    line-height: 21.79px;
+    color: #23272A;
+    padding: 0 15px;
+}
+
+footer {
+    color: #23272A;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+footer img {
+    border: none;
+}
+
+@media only screen and (min-width: 601px) {
+
+    #top {
+        background-image: url(/repositorio_discord/assets/images/Header\ Background\ \(1\).png);
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #top h2 {
+        margin: 0;
+        text-align: center;
+        font-size: 56px;
+        font-weight: 400;
+        line-height: 56px;
+        letter-spacing: 0em;
+    }
+
+    #top p {
+        width: 757px;
+        height: 66px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    button {
+        margin-left: 13px;
+    }
+
+    #button-1 {
+        width: 205px;
+        height: 44px;
+        border-radius: 28px;
+    }
+
+    #button-2 {
+        width: 281px;
+        height: 44px;
+        left: 221px;
+        border-radius: 28px;
+
+    }
+
+    #mid-1 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #mid-1 h3, p {
+        width: 348px;
+    }
+
+    #mid-1 img {
+        width: 607px;
+        height: 394px;
+
+    }
+
+    #mid-1 h3 {
+        width: 329px;
+        height: 270px;
+        top: 10px;
+        left: 623px;
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 54px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin: 15px 0px;
+    }
+
+    #mid-1 p {
+        width: 348px;
+        height: 88px;
+        top: 296px;
+        left: 623px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    #mid-2 {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+
+    #mid-2 img {
+        display: flex;
+        justify-content: center;
+        width: 607px;
+        height: 394px;
+        padding: 0;
+    }
+
+    #mid-2 h3, #mid-2 p {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    #mid-2 h3 {
+        width: 329px;
+        height: 108px;
+        top: 118px;
+        left: 153px;
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 54px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin: 80px 0 20px 0;
+    }
+
+    #mid-2 p {
+        width: 348px;
+        height: 88px;
+        top: 242px;
+        left: 156px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .mid-xtra {
+        display: flex;
+        flex-direction: row !important;
+    }
+
+    #mid-3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #mid-3 h2 {
+        width: 608px;
+        height: 80px;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    #mid-3 p {
+        width: 802px;
+        height: 44px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    #mid-3 img {
+        width: 784px;
+        height: 508px;
+    }
+
+    footer {
+        color: #23272A;
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 100%;
+        position: relative;
+        background: none;
+    }
+
+    footer::before {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: url('/repositorio_discord/assets/images/Frame\ 1.png') no-repeat center center / cover;
+    }
+    }
